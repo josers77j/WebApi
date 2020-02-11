@@ -17,6 +17,14 @@ namespace WebApplication3.Controllers
         private DB_A53C6D_lapiscinatestEntities db = new DB_A53C6D_lapiscinatestEntities();
 
         // GET: api/Tbl_Usuarios
+
+        //public IQueryable<UserViewModel> GetTbl_Usuarios()
+        //{
+        //    return db.Tbl_Usuarios.AsNoTracking().Select
+        //        (u => new UserViewModel { Id = u.ID, UserName = u.Usuario, Password = u.Password });
+
+        //}
+
         public Tbl_UsuariosController()
         {
             db.Configuration.ProxyCreationEnabled = false;
