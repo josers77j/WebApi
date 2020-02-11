@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a7feb0b8351345338c0f67b7e8792b02" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.sysdiagram" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Acciones" Width="1.5" PointX="7.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_AreaDeImpresion" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Areas" Width="1.5" PointX="1.5" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Categorias" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Clientes" Width="1.5" PointX="1.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Cuentas" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_DetalleOrden" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Empleados" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Estado" Width="1.5" PointX="1.5" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Mesas" Width="1.5" PointX="3.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_MesasReservas" Width="1.5" PointX="6" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Ordenes" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Productos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Relacion" Width="1.5" PointX="3.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Roles" Width="1.5" PointX="5.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_TipoProductos" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Transacciones" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_UnionMesas" Width="1.5" PointX="6" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A53C6D_lapiscinatestModel.Tbl_Usuarios" Width="1.5" PointX="8" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Transacciones_Tbl_Acciones" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Productos_Tbl_AreaDeImpresion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Cuentas_Tbl_Areas" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Mesas_Tbl_Areas" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Productos_Tbl_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Cuentas_Tbl_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Cuentas_Tbl_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Ordenes_Tbl_Cuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_DetalleOrden_Tbl_Ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_DetalleOrden_Tbl_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Usuarios_Tbl_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_MesasReservas_Tbl_Mesas" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_UnionMesas_Tbl_Mesas" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Productos_Tbl_TipoProductos" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_UnionMesas_Tbl_Relacion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A53C6D_lapiscinatestModel.FK_Tbl_Usuarios_Tbl_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
